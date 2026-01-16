@@ -3,7 +3,7 @@ name: CI/CD Node Docker App
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-push:
